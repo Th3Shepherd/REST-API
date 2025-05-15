@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dokumentation av det här API:et</h1>
+    <h2>Route </h2>
+    <ul>
+        <li><strong>GET /users</strong> - Hämtar alla användare från databasen.</li>
+        <li><strong>Get /users/:id</strong> - hämtar en specifik användare baserat på ID</li>
+        <li><strong>POST /users</strong> - Skapar en ny användare. Skicka JSON-data i formatet:<br>
+            <pre>{
+                "username": "Ditt username"
+                "password": "Ditt password"
+                "name": "Ditt namn"
+                "email": "Ditt email"
+            }</pre>
+        </li>
+    </ul>
+</body>
+</html>
